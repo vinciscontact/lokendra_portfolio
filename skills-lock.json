@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "gsap-scrolltrigger": {
+      "source": "bbeierle12/skill-mcp-claude",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "computedHash": "b8f85d46337d4502c86705d03f9da8c6c1d4eecf22d6b11134dafae6062dd7de"
+    }
+  }
+}

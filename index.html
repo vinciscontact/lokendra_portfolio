@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lokendra Pagadala — Videographer · Photographer · Cinematographer</title>
+  <meta name="description" content="Lokendra Pagadala — videographer, photographer, cinematographer, editor and storyteller. A cinematic body of work in motion and stills." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__name">
+        <span>LOKENDRA</span>
+        <span>PAGADALA</span>
+      </div>
+      <div class="preloader__count"><span id="count">0</span><i>%</i></div>
+    </div>
+    <div class="preloader__bar"><div class="preloader__bar-fill" id="barFill"></div></div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ============ 3D BACKGROUND ============ -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="grain"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__brand" data-cursor="hover">LP<span>.</span></a>
+    <nav class="nav__links">
+      <a href="#work" data-cursor="hover">Work</a>
+      <a href="#photography" data-cursor="hover">Stills</a>
+      <a href="#reels" data-cursor="hover">Reels</a>
+      <a href="#stories" data-cursor="hover">Stories</a>
+      <a href="#contact" class="nav__cta" data-cursor="hover">Contact</a>
+    </nav>
+    <button class="nav__menu" id="menuBtn" aria-label="Menu"><span></span><span></span></button>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-menu__links">
+      <a href="#work"><span>01</span> Work</a>
+      <a href="#photography"><span>02</span> Stills</a>
+      <a href="#reels"><span>03</span> Reels</a>
+      <a href="#stories"><span>04</span> Stories</a>
+      <a href="#contact"><span>05</span> Contact</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <span>Lokendra Pagadala</span>
+      <span>@pc.pixelss</span>
+    </div>
+  </div>
+
+  <main id="scroll-content">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__portrait" aria-hidden="true">
+        <img src="chinni/1.png" alt="" />
+      </div>
+
+      <div class="hero__meta">
+        <span class="tag">MOTION · CINEMA · STILLS</span>
+        <span class="tag">EST. INDIA</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="line"><span class="word">LOKENDRA</span></span>
+        <span class="line"><span class="word">PAGADALA</span></span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__roles">
+          <span>Videographer</span><span>Photographer</span><span>Cinematographer</span><span>Editor</span><span>Storyteller</span>
+        </p>
+        <a href="#work" class="scroll-cue" data-cursor="hover">
+          <span>Scroll to explore</span>
+          <i></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ INTRO / ABOUT ============ -->
+    <section class="about" id="work">
+      <div class="about__index"><span>(01)</span> — About</div>
+      <h2 class="about__statement reveal-text">
+        Light, motion and silence — shaped into stories. I work between the still frame
+        and the moving image, chasing the moments most people scroll past.
+      </h2>
+
+      <div class="about__grid">
+        <div class="about__col">
+          <p class="reveal-text">
+            I'm Lokendra, a self-driven videographer and photographer with a growing love for
+            cinematography. From bold vertical reels to quiet, high-contrast stills, my work
+            lives in the tension between dark and light.
+          </p>
+          <p class="reveal-text">
+            I shoot it, I cut it, and increasingly I write the story underneath it. Every project
+            is a chance to make a viewer pause for one second longer.
+          </p>
+        </div>
+        <ul class="about__skills">
+          <li data-cursor="hover"><span>01</span> Videography</li>
+          <li data-cursor="hover"><span>02</span> Photography</li>
+          <li data-cursor="hover"><span>03</span> Cinematography <em>· learning</em></li>
+          <li data-cursor="hover"><span>04</span> Video Editing</li>
+          <li data-cursor="hover"><span>05</span> Canvas &amp; Composition</li>
+          <li data-cursor="hover"><span>06</span> Storytelling</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>PHOTOGRAPHY</span><i>✶</i><span>FILMMAKING</span><i>✶</i><span>REELS</span><i>✶</i><span>EDITING</span><i>✶</i><span>STORIES</span><i>✶</i>
+        <span>PHOTOGRAPHY</span><i>✶</i><span>FILMMAKING</span><i>✶</i><span>REELS</span><i>✶</i><span>EDITING</span><i>✶</i><span>STORIES</span><i>✶</i>
+      </div>
+    </div>
+
+    <!-- ============ PHOTOGRAPHY ============ -->
+    <section class="photo" id="photography">
+      <div class="section-head">
+        <div class="about__index"><span>(02)</span> — Stills</div>
+        <h2 class="section-title reveal-text">Photography</h2>
+        <p class="section-sub reveal-text">High-contrast frames. Monochrome by intent — colour reveals itself when you lean in.</p>
+      </div>
+
+      <div class="photo__grid" id="photoGrid">
+        <figure class="photo__item" data-img="Photography/1.jpeg" data-cursor="view">
+          <img src="Photography/1.jpeg" alt="Macro — dragonfly against textured wall" loading="lazy" />
+          <figcaption><span>Frame 01</span><b>Macro / Light</b></figcaption>
+        </figure>
+        <figure class="photo__item" data-img="Photography/2.jpeg" data-cursor="view">
+          <img src="Photography/2.jpeg" alt="Photograph by Lokendra Pagadala" loading="lazy" />
+          <figcaption><span>Frame 02</span><b>Form</b></figcaption>
+        </figure>
+        <figure class="photo__item" data-img="Photography/3.jpeg" data-cursor="view">
+          <img src="Photography/3.jpeg" alt="Photograph by Lokendra Pagadala" loading="lazy" />
+          <figcaption><span>Frame 03</span><b>Shadow</b></figcaption>
+        </figure>
+        <figure class="photo__item" data-img="Photography/4.jpeg" data-cursor="view">
+          <img src="Photography/4.jpeg" alt="Photograph by Lokendra Pagadala" loading="lazy" />
+          <figcaption><span>Frame 04</span><b>Texture</b></figcaption>
+        </figure>
+        <figure class="photo__item" data-img="Photography/5.jpeg" data-cursor="view">
+          <img src="Photography/5.jpeg" alt="Photograph by Lokendra Pagadala" loading="lazy" />
+          <figcaption><span>Frame 05</span><b>Stillness</b></figcaption>
+        </figure>
+        <figure class="photo__item" data-img="Photography/6.jpeg" data-cursor="view">
+          <img src="Photography/6.jpeg" alt="Photograph by Lokendra Pagadala" loading="lazy" />
+          <figcaption><span>Frame 06</span><b>Contrast</b></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ REELS (horizontal pinned) ============ -->
+    <section class="reels" id="reels">
+      <div class="reels__pin" id="reelsPin">
+        <div class="reels__intro">
+          <div class="about__index"><span>(03)</span> — Motion</div>
+          <h2 class="section-title">Reels<br><span>&amp; Short Films</span></h2>
+          <p class="section-sub">Cinematic cuts & frames from the feed. Drag or keep scrolling →</p>
+        </div>
+        <div class="reels__track" id="reelsTrack">
+          <!-- reel cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINEMATOGRAPHY / EDITING ============ -->
+    <section class="craft" id="craft">
+      <div class="craft__row">
+        <span class="craft__num">(04)</span>
+        <h3 class="craft__line reveal-text">From <em>capture</em> to <em>cut.</em></h3>
+      </div>
+      <div class="craft__cols">
+        <div class="craft__card" data-cursor="hover">
+          <h4>Cinematography</h4>
+          <p>Studying motion, lensing and light — building a filmic eye one frame at a time.</p>
+        </div>
+        <div class="craft__card" data-cursor="hover">
+          <h4>Editing</h4>
+          <p>Rhythm, pacing and sound. The edit is where the footage becomes a feeling.</p>
+        </div>
+        <div class="craft__card" data-cursor="hover">
+          <h4>Canvas &amp; Design</h4>
+          <p>Strong composition instincts — framing, balance and negative space on every canvas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STORIES ============ -->
+    <section class="stories" id="stories">
+      <div class="about__index"><span>(05)</span> — Words</div>
+      <h2 class="stories__quote reveal-text">
+        “Every frame I shoot already has a sentence behind it.”
+      </h2>
+      <p class="stories__body reveal-text">
+        Beyond the lens, I write — short stories, captions and the narratives that give my
+        films their spine. Image and word, made to travel together.
+      </p>
+
+      <div class="stories__grid">
+        <a class="story-card" href="https://drive.google.com/file/d/1OKKQLFIgPwOAjrsLHpzVOx6BwabDSeP4/view?usp=drivesdk" target="_blank" rel="noopener" data-cursor="hover" aria-label="Read the script — The Black Bike">
+          <img src="scripts/the-black-bike.jpg" alt="The Black Bike — script poster" loading="lazy" />
+          <span class="story-card__top"><b>01</b><em>Script</em></span>
+          <span class="story-card__read">Read <i>↗</i></span>
+        </a>
+        <a class="story-card" href="https://drive.google.com/file/d/1ZBFi5zI-Fo9_e3R2EAwFWRr_8uSOgMhF/view?usp=drivesdk" target="_blank" rel="noopener" data-cursor="hover" aria-label="Read the script — The Black Bike Return">
+          <img src="scripts/the-black-bike-return.jpg" alt="The Black Bike — Return — script poster" loading="lazy" />
+          <span class="story-card__top"><b>02</b><em>Script</em></span>
+          <span class="story-card__read">Read <i>↗</i></span>
+        </a>
+        <a class="story-card" href="https://drive.google.com/file/d/14z9wmppifE6czReutUNu_sZdFp7VFQsX/view?usp=drivesdk" target="_blank" rel="noopener" data-cursor="hover" aria-label="Read the script — Love at First Sight">
+          <img src="scripts/love-at-first-sight.jpg" alt="Love at First Sight — script poster" loading="lazy" />
+          <span class="story-card__top"><b>03</b><em>Script</em></span>
+          <span class="story-card__read">Read <i>↗</i></span>
+        </a>
+      </div>
+
+      <a href="#contact" class="btn-magnetic" data-cursor="hover" id="storyBtn"><span>Read &amp; collaborate</span></a>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="about__index"><span>(06)</span> — Contact</div>
+      <h2 class="contact__title">
+        <span class="line"><span class="word">LET'S</span></span>
+        <span class="line"><span class="word">CREATE.</span></span>
+      </h2>
+      <div class="contact__grid">
+        <a href="https://www.instagram.com/pc.pixelss?igsh=MWlhcGJnZGxxMWl4dQ==" target="_blank" rel="noopener" class="contact__link" data-cursor="hover">Instagram <i>↗</i><small>@pc.pixelss · reels &amp; stills</small></a>
+        <a href="https://youtube.com/@deluluboyss?si=vdTslTCltA6ReFjI" target="_blank" rel="noopener" class="contact__link" data-cursor="hover">YouTube <i>↗</i><small>@deluluboyss · films &amp; edits</small></a>
+        <a href="mailto:lokendrapagadala19@gmail.com" class="contact__link" data-cursor="hover">Email <i>↗</i><small>lokendrapagadala19@gmail.com</small></a>
+        <a href="tel:+919391794974" class="contact__link" data-cursor="hover">Phone <i>↗</i><small>+91 93917 94974</small></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Lokendra Pagadala</span>
+      <span>Designed in the dark.</span>
+      <button class="footer__top" data-cursor="hover" id="toTop">Back to top ↑</button>
+    </footer>
+
+  </main>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">✕</button>
+    <img src="" alt="" id="lbImg" />
+  </div>
+
+  <!-- ============ LIBRARIES ============ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+  <script src="js/scene.js?v=2"></script>
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
